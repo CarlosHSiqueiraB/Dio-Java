@@ -1,18 +1,19 @@
 package com.estudos;
 
 public class Main {
+    //Só de declarar um nó em um lado, o java atual já entende que o "New No" também é uma String
     public static void main(String[] args) {
-        No no1 = new No("Conteúdo no1");
+        No<String> no1 = new No("Conteúdo no1");
 
-        No no2 = new No("Conteúdo no2");
+        No<String> no2 = new No("Conteúdo no2");
         //Encadeando nós fazendo a próxima referência do Nó 1 apontar para o nó 2
 
         no1.setProximoNo(no2);
 
-        No no3 = new No("Conteúdo no3");
+        No<String> no3 = new No("Conteúdo no3");
         no2.setProximoNo(no3);
 
-        No no4 = new No("Conteúdo no4");
+        No<String> no4 = new No("Conteúdo no4");
         no3.setProximoNo(no4);
 
         //Nó1 aponta pra nó2, nó2 aponta pra nó3 e nó3 aponta pra nó4, e o Nó4 aponta pra null

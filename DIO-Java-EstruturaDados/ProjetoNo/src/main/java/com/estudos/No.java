@@ -1,20 +1,21 @@
 package com.estudos;
 
-public class No {
-   private String conteudo;
-   private No proximoNo;
+//Trazendo conceitos de tipos genéricos com <T>: T significa que posso agora ter nós de qualquer tipo
+public class No<T> {
+   private T conteudo;
+   private No<T> proximoNo;
 
    //Estrutura Base de um nó
-    public No(String conteudo) {
+    public No(T conteudo) {
         this.proximoNo = null;
         this.conteudo = conteudo;
     }
 
-    public String getConteudo() {
+    public T getConteudo() {
         return conteudo;
     }
 
-    public void setConteudo(String conteudo) {
+    public void setConteudo(T conteudo) {
         this.conteudo = conteudo;
     }
 
