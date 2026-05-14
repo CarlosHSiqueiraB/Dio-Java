@@ -1,0 +1,22 @@
+package com.estudos;
+
+public class Main {
+    public static void main(String[] args) {
+        ListaEncadeada<String> minhaListaEncadeada = new ListaEncadeada<>();
+
+        minhaListaEncadeada.add("Teste1");
+        minhaListaEncadeada.add("Teste2");
+        minhaListaEncadeada.add("Teste3");
+        minhaListaEncadeada.add("Teste4");
+        minhaListaEncadeada.add("Teste5");
+
+        System.out.println(minhaListaEncadeada.get(0));
+        System.out.println(minhaListaEncadeada.get(1));
+
+        System.out.println(minhaListaEncadeada);
+
+        System.out.println(minhaListaEncadeada.remove(3));
+
+        System.out.println(minhaListaEncadeada);
+    }
+}
