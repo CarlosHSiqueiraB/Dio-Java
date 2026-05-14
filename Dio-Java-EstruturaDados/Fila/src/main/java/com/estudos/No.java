@@ -1,10 +1,10 @@
 package com.estudos;
 
-public class No {
-    private Object object;//Conteudo/Dado do nó
-    private No refNo;
+public class No<T> {
+    private T object;//Conteudo/Dado do nó
+    private No<T> refNo;
 
-    public No(Object object){
+    public No(T object){
         this.refNo = null;
         this.object = object;
     }
@@ -13,7 +13,7 @@ public class No {
         return object;
     }
 
-    public void setObject(Object object) {
+    public void setObject(T object) {
         this.object = object;
     }
 

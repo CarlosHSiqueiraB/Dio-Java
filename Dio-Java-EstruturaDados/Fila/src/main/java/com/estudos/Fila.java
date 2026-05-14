@@ -1,18 +1,19 @@
 package com.estudos;
 
-public class Fila {
-    private No refNoEntradaFila;
+public class Fila<T> {
+    private No<T> refNoEntradaFila;
 
     public Fila() {
         this.refNoEntradaFila = null;
     }
 
-    public void enqueue(No novoNo) {//Novo nó entra na fila
+    public void enqueue(T obj) {//Novo nó entra na fila
+        No novoNo = new No(obj);
         novoNo.setRefNo(refNoEntradaFila);//Agora que novo nó entrou na fila, a Antiga ref de entrada, agora não é mais a ultima da fila, é a penultima
         refNoEntradaFila = novoNo; //Agora a ref de entrada aponta pro novo nó
     }
 
-    public No first() {
+    public T first() {
         if (!this.isEmpty()) {//Se só há um nó na fila, então ele sempre será o primeiro nó
             No primeiroNo = refNoEntradaFila;
             while (true) {
@@ -22,12 +23,12 @@ public class Fila {
                     break;
                 }
             }
-            return primeiroNo;
+            return (T) primeiroNo.getObject();
         }
         return null;
     }
 
-    public No dequeue() {
+    public T dequeue() {
         if (!this.isEmpty()) {//Se só há um nó na fila, então ele sempre será o primeiro nó
             No primeiroNo = refNoEntradaFila;
             No noAuxiliar = refNoEntradaFila;
@@ -40,7 +41,7 @@ public class Fila {
                     break;
                 }
             }
-            return primeiroNo;
+            return (T) primeiroNo.getObject();
         }
         return null;
     }
