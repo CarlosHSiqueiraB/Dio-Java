@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Dio-Java-BoasPraticas/Dio-Java-Debugging/src/br/com/dio/debbuging" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Dio-Java-EstruturaDados/Dio-Java-EstruturaDados-Conceitos/HashMap/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dio-Java-BoasPraticas/Dio-Java-Exceptions/src/br/com/dio/exceptions" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
