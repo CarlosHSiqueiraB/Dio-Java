@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ProjetoNo" />
+        <module name="BootcampDesafio" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Arvore" target="17" />
+      <module name="AtribuicaoReferencias" target="17" />
+      <module name="BancoDigitalPoo" target="17" />
+      <module name="Contador" target="17" />
+      <module name="Equals_E_HashCode" target="17" />
+      <module name="Fila" target="17" />
+      <module name="Iphone" target="17" />
+      <module name="LIstaCircular" target="17" />
+      <module name="ListaDuplamenteEncadeada" target="17" />
+      <module name="ListaEncadeada" target="17" />
+      <module name="Pilhas" target="17" />
+      <module name="Treino_cozinha" target="17" />
+      <module name="ValidacaoProcessoSeletivo" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

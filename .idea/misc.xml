@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/ValidacaoProcessoSeletivo/pom.xml" />
+        <option value="$PROJECT_DIR$/Contador/pom.xml" />
+        <option value="$PROJECT_DIR$/Treino_cozinha/pom.xml" />
+        <option value="$PROJECT_DIR$/Iphone/pom.xml" />
+        <option value="$PROJECT_DIR$/BancoDigitalPoo/pom.xml" />
+        <option value="$PROJECT_DIR$/AtribuicaoReferencias/pom.xml" />
+        <option value="$PROJECT_DIR$/ProjetoNo/pom.xml" />
+        <option value="$PROJECT_DIR$/Pilhas/pom.xml" />
+        <option value="$PROJECT_DIR$/Fila/pom.xml" />
+        <option value="$PROJECT_DIR$/ListaEncadeada/pom.xml" />
+        <option value="$PROJECT_DIR$/ListaDuplamenteEncadeada/pom.xml" />
+        <option value="$PROJECT_DIR$/LIstaCircular/pom.xml" />
+        <option value="$PROJECT_DIR$/Arvore/pom.xml" />
+        <option value="$PROJECT_DIR$/Equals_E_HashCode/pom.xml" />
+        <option value="$PROJECT_DIR$/BootcampDesafio/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
