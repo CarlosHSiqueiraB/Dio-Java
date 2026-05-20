@@ -6,14 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Dio-Java-IO" />
         <module name="ProjetoNo" />
-        <module name="BootcampDesafio" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Arvore" target="17" />
       <module name="AtribuicaoReferencias" target="17" />
       <module name="BancoDigitalPoo" target="17" />
+      <module name="BootcampDesafio" target="17" />
       <module name="Contador" target="17" />
       <module name="Equals_E_HashCode" target="17" />
       <module name="Fila" target="17" />
