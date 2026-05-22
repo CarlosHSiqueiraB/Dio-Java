@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Dio-Java-IO" />
         <module name="ProjetoNo" />
+        <module name="Junit_Jupiter_Projeto1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +16,7 @@
       <module name="BancoDigitalPoo" target="17" />
       <module name="BootcampDesafio" target="17" />
       <module name="Contador" target="17" />
+      <module name="Dio-Java-IO" target="17" />
       <module name="Equals_E_HashCode" target="17" />
       <module name="Fila" target="17" />
       <module name="Iphone" target="17" />
