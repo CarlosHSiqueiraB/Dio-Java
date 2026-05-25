@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Java_Mockito" />
         <module name="ProjetoNo" />
-        <module name="Junit_Jupiter_Projeto1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +20,7 @@
       <module name="Equals_E_HashCode" target="17" />
       <module name="Fila" target="17" />
       <module name="Iphone" target="17" />
+      <module name="Junit_Jupiter_Projeto1" target="17" />
       <module name="LIstaCircular" target="17" />
       <module name="ListaDuplamenteEncadeada" target="17" />
       <module name="ListaEncadeada" target="17" />
