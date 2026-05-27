@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Java_Mockito" />
+        <module name="BeansVsComponents" />
         <module name="ProjetoNo" />
       </profile>
     </annotationProcessing>
@@ -20,13 +20,21 @@
       <module name="Equals_E_HashCode" target="17" />
       <module name="Fila" target="17" />
       <module name="Iphone" target="17" />
+      <module name="Java_Mockito" target="17" />
       <module name="Junit_Jupiter_Projeto1" target="17" />
       <module name="LIstaCircular" target="17" />
       <module name="ListaDuplamenteEncadeada" target="17" />
       <module name="ListaEncadeada" target="17" />
       <module name="Pilhas" target="17" />
+      <module name="PrimeirosPassos" target="17" />
       <module name="Treino_cozinha" target="17" />
       <module name="ValidacaoProcessoSeletivo" target="17" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="BeansVsComponents" options="-parameters" />
+      <module name="PrimeirosPassos" options="-parameters" />
+    </option>
   </component>
 </project>
