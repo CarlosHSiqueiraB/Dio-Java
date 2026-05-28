@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SpringDataJPA" />
         <module name="ProjetoNo" />
-        <module name="ConfigurationProperties" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +16,7 @@
       <module name="BancoDigitalPoo" target="17" />
       <module name="BeansVsComponents" target="17" />
       <module name="BootcampDesafio" target="17" />
+      <module name="ConfigurationProperties" target="17" />
       <module name="Contador" target="17" />
       <module name="Dio-Java-IO" target="17" />
       <module name="Equals_E_HashCode" target="17" />
@@ -38,6 +39,7 @@
       <module name="BeansVsComponents" options="-parameters" />
       <module name="ConfigurationProperties" options="-parameters" />
       <module name="PrimeirosPassos" options="-parameters" />
+      <module name="SpringDataJPA" options="-parameters" />
       <module name="SpringScopesSingletonPrototype" options="-parameters" />
     </option>
   </component>

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Dio-Java.iml" filepath="$PROJECT_DIR$/.idea/Dio-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringDataJPA/SpringDataJPA.iml" filepath="$PROJECT_DIR$/SpringDataJPA/SpringDataJPA.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dio-Java-Basico/contaBancariaTerminal/contaBancariaTerminal.iml" filepath="$PROJECT_DIR$/Dio-Java-Basico/contaBancariaTerminal/contaBancariaTerminal.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dio-Java-Basico/java-anatomia-classes/java-anatomia-classes.iml" filepath="$PROJECT_DIR$/Dio-Java-Basico/java-anatomia-classes/java-anatomia-classes.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dio-Java-Basico/meu primeiro projeto java/meu primeiro projeto java.iml" filepath="$PROJECT_DIR$/Dio-Java-Basico/meu primeiro projeto java/meu primeiro projeto java.iml" />

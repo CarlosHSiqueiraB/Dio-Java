@@ -26,6 +26,7 @@
         <option value="$PROJECT_DIR$/BeansVsComponents/pom.xml" />
         <option value="$PROJECT_DIR$/SpringScopesSingletonPrototype/pom.xml" />
         <option value="$PROJECT_DIR$/ConfigurationProperties/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringDataJPA/pom.xml" />
       </list>
     </option>
   </component>
