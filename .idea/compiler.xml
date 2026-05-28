@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ProjetoNo" />
-        <module name="SpringScopesSingletonPrototype" />
+        <module name="ConfigurationProperties" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,6 +28,7 @@
       <module name="ListaEncadeada" target="17" />
       <module name="Pilhas" target="17" />
       <module name="PrimeirosPassos" target="17" />
+      <module name="SpringScopesSingletonPrototype" target="17" />
       <module name="Treino_cozinha" target="17" />
       <module name="ValidacaoProcessoSeletivo" target="17" />
     </bytecodeTargetLevel>
@@ -35,6 +36,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="BeansVsComponents" options="-parameters" />
+      <module name="ConfigurationProperties" options="-parameters" />
       <module name="PrimeirosPassos" options="-parameters" />
       <module name="SpringScopesSingletonPrototype" options="-parameters" />
     </option>
