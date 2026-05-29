@@ -1,5 +1,6 @@
 package com.estudos.springrestapi.repository;
 
+import com.estudos.springrestapi.handle.BusinessException;
 import com.estudos.springrestapi.model.Usuario;
 import jakarta.annotation.PostConstruct;
 import org.springframework.stereotype.Repository;
@@ -45,7 +46,7 @@ public class UsuarioRepository {
             }
         }
 
-        return null;
+        throw new BusinessException("Usuário %d não encontrado", id);
     }
 
     public Usuario findByLogin(String login) {
@@ -56,7 +57,7 @@ public class UsuarioRepository {
             }
         }
 
-        return null;
+        throw new BusinessException("Login %f não encontrado", login);
     }
 
     public void update(Usuario usuario) {
