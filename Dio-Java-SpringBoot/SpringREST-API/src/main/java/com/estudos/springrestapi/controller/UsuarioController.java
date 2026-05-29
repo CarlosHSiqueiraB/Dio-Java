@@ -34,4 +34,10 @@ public class UsuarioController {
         return "Usuário Cadastrado com Sucesso!";
     }
 
+    @PutMapping
+    public String putUser(@RequestBody Usuario usuario){
+        repository.update(usuario);
+        return "Usuário Atualizado com Sucesso!";
+    }
+
 }

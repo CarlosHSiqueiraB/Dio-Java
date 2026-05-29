@@ -69,6 +69,9 @@ public class UsuarioRepository {
 
             System.out.println("Usuário atualizado");
         }
+        else{
+            System.out.println("Usuário Inexistente");
+        }
     }
 
     public void remove(Integer id) {
