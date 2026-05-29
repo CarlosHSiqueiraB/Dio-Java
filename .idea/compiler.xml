@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SpringDataJPA" />
         <module name="ProjetoNo" />
+        <module name="SpringREST-API" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,6 +29,7 @@
       <module name="ListaEncadeada" target="17" />
       <module name="Pilhas" target="17" />
       <module name="PrimeirosPassos" target="17" />
+      <module name="SpringDataJPA" target="17" />
       <module name="SpringScopesSingletonPrototype" target="17" />
       <module name="Treino_cozinha" target="17" />
       <module name="ValidacaoProcessoSeletivo" target="17" />
