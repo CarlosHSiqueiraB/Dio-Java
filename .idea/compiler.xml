@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SpringSecuityAPIREST" />
         <module name="ProjetoNo" />
-        <module name="SpringREST-API" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,6 +30,7 @@
       <module name="Pilhas" target="17" />
       <module name="PrimeirosPassos" target="17" />
       <module name="SpringDataJPA" target="17" />
+      <module name="SpringREST-API" target="1.5" />
       <module name="SpringScopesSingletonPrototype" target="17" />
       <module name="Treino_cozinha" target="17" />
       <module name="ValidacaoProcessoSeletivo" target="17" />
@@ -42,6 +43,7 @@
       <module name="PrimeirosPassos" options="-parameters" />
       <module name="SpringDataJPA" options="-parameters" />
       <module name="SpringScopesSingletonPrototype" options="-parameters" />
+      <module name="SpringSecuityAPIREST" options="-parameters" />
     </option>
   </component>
 </project>

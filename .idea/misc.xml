@@ -28,6 +28,7 @@
         <option value="$PROJECT_DIR$/ConfigurationProperties/pom.xml" />
         <option value="$PROJECT_DIR$/SpringDataJPA/pom.xml" />
         <option value="$PROJECT_DIR$/SpringREST-API/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringSecuityAPIREST/pom.xml" />
       </list>
     </option>
   </component>
