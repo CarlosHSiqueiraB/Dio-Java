@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SpringSecuityAPIREST" />
+        <module name="GerenciamentoProdutos" />
+        <module name="ApiGerenciamentoTarefas" />
         <module name="ProjetoNo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ApiGerenciamentoTarefas" target="17" />
       <module name="Arvore" target="17" />
       <module name="AtribuicaoReferencias" target="17" />
       <module name="BancoDigitalPoo" target="17" />
@@ -24,6 +26,7 @@
       <module name="Iphone" target="17" />
       <module name="Java_Mockito" target="17" />
       <module name="Junit_Jupiter_Projeto1" target="17" />
+      <module name="Lab-padroes-pSpring" target="17" />
       <module name="LIstaCircular" target="17" />
       <module name="ListaDuplamenteEncadeada" target="17" />
       <module name="ListaEncadeada" target="17" />
@@ -32,14 +35,18 @@
       <module name="SpringDataJPA" target="17" />
       <module name="SpringREST-API" target="1.5" />
       <module name="SpringScopesSingletonPrototype" target="17" />
+      <module name="SpringSecuityAPIREST" target="17" />
       <module name="Treino_cozinha" target="17" />
       <module name="ValidacaoProcessoSeletivo" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ApiGerenciamentoTarefas" options="-parameters" />
       <module name="BeansVsComponents" options="-parameters" />
       <module name="ConfigurationProperties" options="-parameters" />
+      <module name="GerenciamentoProdutos" options="-parameters" />
+      <module name="Lab-padroes-pSpring" options="-parameters" />
       <module name="PrimeirosPassos" options="-parameters" />
       <module name="SpringDataJPA" options="-parameters" />
       <module name="SpringScopesSingletonPrototype" options="-parameters" />
